@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pandasai = "*"
+loguru = "*"
+fastapi = "*"
+cachetools = "*"
+pymongo = "*"
+python-dotenv = "*"
+pyarrow = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
